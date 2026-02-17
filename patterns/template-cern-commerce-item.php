@@ -56,7 +56,7 @@
                                         href="<?php echo esc_attr(esc_url($href)); ?>"
                                         class="wp-block-button__link wp-element-button"
                                     >
-                                        Buy
+                                        <?php esc_html_e( 'Buy', 'cerncommerce' ); ?>
                                     </a>
                                 </div>
                             <!-- /wp:button -->
