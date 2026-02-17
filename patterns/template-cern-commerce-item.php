@@ -56,7 +56,8 @@
                                         href="<?php echo esc_attr(esc_url($href)); ?>"
                                         class="wp-block-button__link wp-element-button"
                                     >
-                                        <?php esc_html_e( 'Buy', 'cerncommerce' ); ?>
+                                        <span class="dashicons dashicons-cart"></span>
+                                        <span><?php esc_html_e( 'Buy', 'cerncommerce' ); ?></span>
                                     </a>
                                 </div>
                             <!-- /wp:button -->
