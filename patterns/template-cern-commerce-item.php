@@ -6,9 +6,11 @@
 ?>
 
 <!-- wp:group {
-    "className":"is-style-default","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","justifyContent":"center"}
+    "className":"is-style-default","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},
+    "align":"full",
+    "layout":{"type":"constrained","justifyContent":"center"}
 } -->
-    <div class="wp-block-group is-style-default" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
+    <div class="wp-block-group is-style-default alignfull" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
         <!-- wp:post-featured-image {"isLink":true,"aspectRatio":"3/2"} /-->
         <!-- wp:post-title {"isLink":true,"fontSize":"x-large"} /-->
         <!-- wp:post-content {"fontSize":"medium","layout":{"type":"constrained"}} /-->
