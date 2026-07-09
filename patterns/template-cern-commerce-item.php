@@ -49,7 +49,7 @@
 
                                         $SUM = ($discount ?: $price) * $RUB_TO_USD_EXCHANGE_RATE;
 
-                                        $href = "https://$HOST/$QR_ID?type=$TYPE&bank=$BANK&sum=$SUM&cur=$CUR&crc=$CRC";
+                                        $href = "https://$HOST/$QR_ID?type=$TYPE&bank=$MEMBER_ID&sum=$SUM&cur=$CUR&crc=$CRC";
                                     ?>
 
                                     <a
